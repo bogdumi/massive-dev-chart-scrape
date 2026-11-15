@@ -1,3 +1,5 @@
 This php will parse all of the data from Digital Truth's Massive Dev Chart into a CSV. 
 
 This data is used for development of photographic film. 
+
+The most recent scrape of all development times (every film/developer combination) is committed as file.csv.
