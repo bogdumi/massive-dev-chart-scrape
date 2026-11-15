@@ -1,3 +1,5 @@
 This php will parse all of the data from Digital Truth's Massive Dev Chart into a CSV. 
 
 This data is used for development of photographic film. 
+
+The site now sits behind a Cloudflare check that blocks server-side scraping. browser/devchart-to-csv.js does the same job from your own browser: open https://www.digitaltruth.com/devchart.php, then run it as a bookmarklet (prefix the URL-encoded file with "javascript:") or paste it into the developer console. It downloads massive-dev-chart-YYYY-MM-DD.csv with the same columns as index.php.
